@@ -222,7 +222,8 @@ span{
   width: 100%;
   transition: 0.5s ease;
 }
-span h1{
+span p{
+	font-weight:bold;
 	white-space: nowrap; 
    color: black;
    font-size: 1.5rem;
