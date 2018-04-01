@@ -222,7 +222,7 @@ span{
   width: 100%;
   transition: 0.5s ease;
 }
-span p{
+span h2{
 	font-weight:bold;
 	white-space: nowrap; 
    color: black;
