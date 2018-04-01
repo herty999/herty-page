@@ -49,18 +49,18 @@ time, mark, audio, video {
 			flex:2;
 			transition: 0.3s;
 		}
-	section div{
+	section #logo{
 		width:135px;
 		height:135px;
 	}
-	section div:hover{
+	section #logo:hover{
 		width: 165px;
 		height: 165px;	
 	}
-	section:hover span{
+	section:hover #text{
 		height: 15%;	
 	}
-	span{
+	#text{
   	height: 0;
    }
 }
@@ -85,18 +85,18 @@ time, mark, audio, video {
 			flex:2;
 			transition: 0.3s;
 		}
-	section div{
+	section #logo{
 		width:115px;
 		height:115px;
 	}
-	section div:hover{
+	section #logo:hover{
 		width: 135px;
 		height: 135px;	
 	}
-	section:hover span{
+	section:hover #text{
 		height: 15%;	
 	}
-	span{
+	#text{
   	height: 0;
     }
 	
@@ -116,11 +116,11 @@ time, mark, audio, video {
 		flex:1;
 
 	}
-	section div{
+	section #logo{
 		width:90px;
 		height:90px;
 	}
-	span{
+	#text{
   	height: 20%;
     }	
 }
@@ -188,7 +188,7 @@ footer{
 	background-position:center;
 	background-image: url("../img/us.jpg");
 }
-section div{
+section #logo{
 	position:relative;
 		top:50%;
 		left:50%;
@@ -212,7 +212,7 @@ section div{
 	background-position:center;
 	background-image: url("../img/us_logo.png");
 }
-span{
+#text{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -222,7 +222,7 @@ span{
   width: 100%;
   transition: 0.5s ease;
 }
-span h2{
+#text h2{
 	font-weight:bold;
 	white-space: nowrap; 
    color: black;
