@@ -173,10 +173,15 @@ nav ul{
 	position: relative;
 	width:100%;
 }
-nav ul li {
+nav ul  li {
 	list-style: none;
-	display: inline-block;
 	line-height: 40px;
+	background-color:rgb(92, 95, 86);
+	border: 2px solid rgb(113, 117, 106);
+}
+nav ul li ul li {
+	background-color:rgb(82, 88, 71);
+
 }
 nav ul li a {
 	padding-right: 50px;
