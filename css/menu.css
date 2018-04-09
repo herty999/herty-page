@@ -22,6 +22,9 @@ time, mark, audio, video {
     font-family: typewriter;
     src: url(../font/myFont.ttf);
 }
+* {
+	box-sizing: border-box;
+}
 @media only screen and (min-width:960px){
 	#nazov{
 	width:90%;
@@ -156,8 +159,8 @@ article
 	padding: 13px;
 }
 footer{
-	border: 1px solid black;
-	height: 10%;
+	background-color:#5a574d;
+	height: 8%;
 	text-align:center;
 }
 #nazov{
@@ -217,7 +220,6 @@ section .logo{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
   overflow: hidden;
   width: 100%;
   transition: 0.5s ease;
@@ -233,4 +235,19 @@ section .logo{
    left: 50%;
    transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+#gtext{
+	background-color:rgb(106, 117, 115);
+}
+#utext{
+	background-color:rgb(113, 117, 106);
+}
+#stext{
+	background-color:rgb(117, 111, 106);
+}
+div a {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
